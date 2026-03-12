@@ -8,6 +8,9 @@ The data used in the study and the models trained in the study can be downloaded
 
 The folder treehull_workflow contains scripts and instructions for the completion of the outer hull shape of individual trees.
 
+
+![intro](treehull_workflow/Fig6_swbm_qualeval.png)
+
 For installation and usage, please follow the original instructions below, provided by the authors of PoinTr.
 
 
