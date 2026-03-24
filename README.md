@@ -1,10 +1,30 @@
-This repository contains the PyTorch implementation for PoinTr, which was adapted for a study on point cloud completion of terrestrial laserscanning data of individual trees.
+This repository contains the PyTorch implementation for PoinTr, which was adapted for two studies on point cloud completion of terrestrial laser scanning data of individual trees.
 
-The folder tree_workflow contains jupyter notebooks for:
-- Creating training samples from individual tree point clouds (make_samples_for_treePoinTr.ipynb)
-- Applying the completion approach to individual trees (whole_tree_completion_workflow.ipynb)  
+# 1) Completing 3D point clouds of individual trees using deep learning
+
+The folder [tree_workflow](./tree_workflow) contains jupyter notebooks for:
+- Creating training samples from individual tree point clouds [make_samples_for_treePoinTr](./tree_workflow/make_samples_for_treePoinTr.ipynb)
+- Applying the completion approach to individual trees [whole_tree_completion_workflow](./tree_workflow/whole_tree_completion_workflow.ipynb)  
 
 The data used in the study and the models trained in the study can be downloaded from Zenodo: [doi.org/10.5281/zenodo.13303159](https://doi.org/10.5281/zenodo.13303159)
+
+## Citation
+
+```
+@article{https://doi.org/10.1111/2041-210X.14412,
+author = {Bornand, Aline and Abegg, Meinrad and Morsdorf, Felix and Rehush, Nataliia},
+title = {Completing 3D point clouds of individual trees using deep learning},
+journal = {Methods in Ecology and Evolution},
+volume = {15},
+number = {11},
+pages = {2010-2023},
+doi = {https://doi.org/10.1111/2041-210X.14412},
+url = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14412},
+year = {2024}
+}
+```
+
+# 2) Reconstructing coniferous tree crown shape from incomplete point clouds using deep learning
 
 The folder treehull_workflow contains scripts and instructions for the completion of the outer hull shape of individual trees.
 
