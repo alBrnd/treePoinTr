@@ -8,8 +8,7 @@ The folder [tree_workflow](./tree_workflow) contains jupyter notebooks for:
 
 The data used in the study and the models trained in the study can be downloaded from Zenodo: [doi.org/10.5281/zenodo.13303159](https://doi.org/10.5281/zenodo.13303159)
 
-## Citation
-
+### Citation
 ```
 @article{https://doi.org/10.1111/2041-210X.14412,
 author = {Bornand, Aline and Abegg, Meinrad and Morsdorf, Felix and Rehush, Nataliia},
@@ -26,14 +25,28 @@ year = {2024}
 
 # 2) Reconstructing coniferous tree crown shape from incomplete point clouds using deep learning
 
-The folder treehull_workflow contains scripts and instructions for the completion of the outer hull shape of individual trees.
+The folder [treehull_workflow](./treehull_workflow) contains scripts and instructions for the completion of the outer hull shape of individual trees.
+
+[treehull_workflow_README.md](./treehull_workflow/treehull_workflow_README.md) goes through the steps of how to generate training and test data and running inference.
+
+### Citation
+```
+@article {Bornand2026.01.18.700158,
+	author = {Bornand, Aline and Abegg, Meinrad and Morsdorf, Felix and Puliti, Stefano and Astrup, Rasmus and Rehush, Nataliia},
+	title = {Reconstructing coniferous tree crown shape from incomplete point clouds using deep learning},
+	year = {2026},
+	doi = {10.64898/2026.01.18.700158},
+	URL = {https://www.biorxiv.org/content/early/2026/01/21/2026.01.18.700158},
+	journal = {bioRxiv}
+}
+```
 
 
 ![intro](treehull_workflow/Fig6_swbm_qualeval.png)
 
+
+
 For installation and usage, please follow the original instructions below, provided by the authors of PoinTr.
-
-
 
 
 
