@@ -31,13 +31,16 @@ The folder [treehull_workflow](./treehull_workflow) contains scripts and instruc
 
 ### Citation
 ```
-@article {Bornand2026.01.18.700158,
-	author = {Bornand, Aline and Abegg, Meinrad and Morsdorf, Felix and Puliti, Stefano and Astrup, Rasmus and Rehush, Nataliia},
-	title = {Reconstructing coniferous tree crown shape from incomplete point clouds using deep learning},
-	year = {2026},
-	doi = {10.64898/2026.01.18.700158},
-	URL = {https://www.biorxiv.org/content/early/2026/01/21/2026.01.18.700158},
-	journal = {bioRxiv}
+@article{doi.org/10.1016/j.ecoinf.2026.103876,
+title = {Reconstructing coniferous tree crown shape from incomplete point clouds using deep learning},
+author = {Aline Bornand and Meinrad Abegg and Felix Morsdorf and Stefano Puliti and Rasmus Astrup and Nataliia Rehush},
+journal = {Ecological Informatics},
+volume = {97},
+pages = {103876},
+year = {2026},
+issn = {1574-9541},
+doi = {https://doi.org/10.1016/j.ecoinf.2026.103876},
+url = {https://www.sciencedirect.com/science/article/pii/S1574954126002839}
 }
 ```
 
